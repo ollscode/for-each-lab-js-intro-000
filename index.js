@@ -4,3 +4,9 @@ function iterativeLog(array) {
     console.log(`${index}: ${element}`);
   });
 }
+
+function iterate(callback) {
+  var array = ["dog", "cat", "squirrel"];
+  array.forEach(callback);
+  return array;
+}
